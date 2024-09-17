@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robonixx</title>
+  <meta name="author" content="Souvik Dey">
+   <!-- theme color  -->
+   <meta name="theme-color" content="#008069">
+   <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+  <link rel="shortcut icon" href="robonix2.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+  <div class="alert alert-success mb-n5 pb-n5 " role="alert">
+    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+  <!-- nav start  -->
+  <nav class=" sticky-top navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body"
+    data-bs-theme="dark">
+    <div class="container-fluid">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="robonix.jpeg" class="--bs-info-border-subtle " alt="Bootstrap" width="50" height="40">
+          </a>
+        </div>
+      </nav>
+      <a class="navbar-brand" href="#"><b>Robonixx</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 grid gap-3">
+
+          <!-- me-auto -->
+
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+
+          </li>
+
+
+        </ul>
+        <!-- <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+
+        <ul class="navbar-nav me-auto m-2 m-lg-2 grid gap-3">
+          <li class="nav-item"><button type="button" class="btn btn-primary"><a class="nav-link"
+                href="#">Primary</a></button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-success"><a class="nav-link" href="#">Success</a></button>
+          </li>
+          <li class="nav-item"><button type="button" class="btn btn-danger"><a class="nav-link"
+                href="#">Danger</a></button>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- nav  end here  -->
+
+      <!-- Back to top button -->
+      <!-- <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+          <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+        </svg>
+      </button>btn btn-primary"
+
+       -->
+
+      <button type="button" class=" btn btn-danger btn-floating btn-lg" id="btn-back-to-top" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+<path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"></path>
+</svg>
+        Top
+      </button>
+      <!-- Back to top button end -->
+
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6  ">
+        <img src="1.jpg" class="d-block mx-lg-auto rounded border   img-fluid  shadow  bg-body-tertiary rounded "
+          alt="Bootstrap Themes" width="200%" height="200%" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Robonixx</h1>
+        <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+          prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="alert alert-primary" role="alert">
+    A new event alert— <a href="http://www.google.com">check it out!</a>
+  </div> -->
+
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+  </div>
+
+
+
+  <!-- Carousel wrapper -->
+  <div class="text-bg-success p-3">imagesr</div>
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="7.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- hero `1 -->
+  <span class="placeholder col-12 bg-success"></span>
+
+  <!-- hero 2 -->
+
+  <!-- <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+      <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Border hero with cropped image and shadows</h1>
+      <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+      </div>
+    </div>
+    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+        <img class="rounded-lg-3" src="1.jpg" alt="" width="720">
+    </div>
+  </div> -->
+
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+          aria-controls="panelsStayOpen-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin
+          adds the appropriate classes that we use to style each element. These classes control the overall appearance,
+          as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or
+          overriding our default variables. It's also worth noting that just about any HTML can go within the
+          <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="placeholder col-12 bg-success"></span>
+  <!-- cards -->
+  <div class="toast-container position-static">
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small class="text-body-secondary">just now</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        See? Just like this.
+      </div>
+    </div>
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small class="text-body-secondary">2 seconds ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Heads up, toasts will stack automatically
+      </div>
+    </div>
+  </div>
+
+  <!-- Button trigger modal -->
+
+
+
+  <br>
+
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4 mt-3">
+        <div class="card" style="width: 100%;"> <!-- Full width for all screen sizes -->
+          <img src="1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BUS TICKETS BOOKING</h5>
+            <p class="card-text">BUS TICKETS BOOKING SOFTWARE , using FRONTEND WEB DEV(HTML, TAILWIND CSS & JS)
+              Programming Language</p>
+            <a href="https://souvik-dey-28.github.io/online-bus-ticket-booking2/" target="_blank"
+              class="btn btn-primary">View Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-3">
+        <div class="card" style="width: 100%;"> <!-- Full width for all screen sizes -->
+          <img src="2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WEATHER WEBSITE</h5>
+            <p class="card-text">WEATHER website uses Programming Language (html5, css3, js, tailwind.css & API).</p>
+            <a href="https://souvik-dey-28.github.io/weather-details/" target="_blank" class="btn btn-primary">View
+              Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 mt-3">
+        <div class="card" style="width: 100%;"> <!-- Full width for all screen sizes -->
+          <img src="3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ECOMMERCE WEBSITE</h5>
+            <p class="card-text">ECOMMERCE WEBSITE website uses Programming Language (html5, TAILWIND.CSS , js).</p>
+            <a href="https://souvik-dey-28.github.io/ecommerce-website/" target="_blank" class="btn btn-primary">View
+              Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--   
+  <div class="clearfix">
+    <img src="1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" height="100%" width="100%" alt="...">
+    <div class="">
+
+
+      <p>
+        A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a
+        few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+      </p>
+
+      <p>
+        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with
+        some actual content in here, rather than just this boring placeholder text that goes on and on, but actually
+        conveys no tangible information at. It simply takes up space and should not really be read.
+      </p>
+
+      <p>
+        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or
+        some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+      </p>
+    </div>
+  </div>
+
+
+ -->
+
+
+
+
+
+  <span class="placeholder col-12 bg-info"></span>
+
+
+
+  <section class="container pt-5 mt-lg-3 mt-xl-4 mt-xxl-5">
+    <h2 class="display-5 text-center pt-2 pt-sm-3 pt-md-4 pt-lg-5 pb-lg-3 mt-xxl-2 mb-0">Around customizer</h2>
+
+    <!-- Colors -->
+    <div class="row align-items-center py-4 mt-2 mt-sm-3 mt-md-4 mb-2 mb-md-3 mb-lg-4 aos-init aos-animate"
+      data-aos="fade-up" data-aos-duration="600" data-aos-offset="300" data-disable-parallax-down="md">
+      <div class="col-md-6 col-lg-7 order-md-2 d-flex justify-content-end">
+        <img class="d-dark-mode-none img-fluid" src="colors-light.svg" alt="Colors">
+        <img class="d-none d-dark-mode-block img-fluid" src="colors-dark.svg" alt="Colors">
+      </div>
+      <div class="col-md-6 col-lg-5 order-md-1 mt-md-n5 aos-init aos-animate" data-aos="fade-up" data-aos-duration="850"
+        data-aos-offset="200" data-disable-parallax-down="md">
+        <span class="badge fs-sm bg-primary bg-opacity-10 text-primary mb-4">Colors</span>
+        <h2 class="mb-4">Change theme brand colors quickly and easily</h2>
+        <p class="fs-lg mb-0 mb-lg-4">Customize theme colors to match your brand palette using the color picker or just
+          type in the color hex. Supported colors: primary, warning, success, info, danger.</p>
+      </div>
+    </div>
+
+    <!-- Typography -->
+
+
+
+
+    <div class="row align-items-center py-4 my-2 my-md-3 my-lg-4 aos-init" data-aos="fade-up" data-aos-duration="600"
+      data-aos-offset="300" data-disable-parallax-down="md">
+      <div class="col-md-6 col-lg-7">
+        <img class="d-dark-mode-none img-fluid" src="typography-light.svg" alt="Typography">
+        <img class="d-none d-dark-mode-block img-fluid" src="typography-dark.svg" alt="Typography">
+      </div>
+      <div class="col-md-6 col-lg-5 mt-md-n4 aos-init" data-aos="fade-up" data-aos-duration="850" data-aos-offset="200"
+        data-disable-parallax-down="md">
+        <span class="badge fs-sm bg-info bg-opacity-10 text-info mb-4">Typography</span>
+        <h2 class="mb-4">Set up fonts from the huge Google font collection</h2>
+        <p class="fs-lg mb-0 mb-lg-4">Easily change the font to your liking. Choose the font from Google Fonts library
+          of 1,442 open source font families. Update headings and body font sizes right from customizer.</p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Borders -->
+    <div class="row align-items-center py-4 my-2 my-md-3 my-lg-4 aos-init" data-aos="fade-up" data-aos-duration="600"
+      data-aos-offset="300" data-disable-parallax-down="md">
+      <div class="col-md-6 col-lg-7 order-md-2 d-flex justify-content-end pb-2 pb-md-0 mb-4 mb-md-0">
+        <img class="d-dark-mode-none img-fluid" src="borders-light.svg" alt="Borders">
+        <img class="d-none d-dark-mode-block img-fluid" src="borders-dark.svg" alt="Borders">
+      </div>
+      <div class="col-md-6 col-lg-5 order-md-1 aos-init" data-aos="fade-up" data-aos-duration="850"
+        data-aos-offset="200" data-disable-parallax-down="md">
+        <span class="badge fs-sm bg-danger bg-opacity-10 text-danger mb-4">Borders</span>
+        <h2 class="mb-4">Rounded or square? Customize borders as you wish</h2>
+        <p class="fs-lg mb-0 mb-lg-4">It's up to you to make your website soft and friendly with increased border radius
+          or add business vibes with less rounded shapes. You can also change border width.</p>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="container py-5 mt-n3 mt-sm-n2 mt-md-0 my-lg-3 my-xl-4 my-xxl-5">
+    <h2 class="display-5 text-center pt-md-3 pt-lg-4 pb-xxl-2 mt-xl-3 mb-4 mb-sm-5">More Around features</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-4 gy-sm-5 pb-md-4 pb-lg-5 mb-2 mb-lg-0 mb-xxl-2">
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="pe-md-3 pe-lg-3 pe-xl-5">
+          <img class="d-inline-block mb-3 mb-lg-4" src="bootstrap.png" width="56" alt="Bootstrap">
+          <h3 class="h5 mb-2">Built with latest Bootstrap</h3>
+          <p class="mb-0">Around is the powerful front-end solution for websits and web apps based on Bootstrap 5 - the
+            world's most popular responsive, mobile-first front-end component library.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="ps-md-3 px-lg-2 px-xl-4">
+          <img class="d-inline-block mb-3 mb-lg-4" src="sass.png" width="56" alt="Sass">
+          <h3 class="h5 mb-2">Easy to Customize with Sass</h3>
+          <p class="mb-0">Around is built using Sass. Easily change colors, typography and much more. It is the most
+            mature, stable, and powerful CSS extension language in the world.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="pe-md-3 ps-lg-3 ps-xl-5">
+          <img class="d-inline-block mb-3 mb-lg-4" src="npm.png" width="56" alt="Npm">
+          <h3 class="h5 mb-2">Kick-start your development</h3>
+          <p class="mb-0">Start your development process fast and easy with Npm scripts setup. Configuration files are
+            included in the download package. Full tasks automation and local server hot reload.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="pe-md-3 pe-lg-3 pe-xl-5">
+          <img class="d-inline-block mb-3 mb-lg-4" src="js.png" width="56" alt="JavaScript">
+          <h3 class="h5 mb-2">Future-proof JavaScript</h3>
+          <p class="mb-0">Around core scripts as well as all dependencies are written in vanilla JS. And now with
+            Bootstrap 5 we finally don't need jQuery any more and we can use ES6 modules to structure the code.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="ps-md-3 px-lg-2 px-xl-4">
+          <img class="d-inline-block mb-3 mb-lg-4" src="html5.png" width="56" alt="HTML5">
+          <h3 class="h5 mb-2">W3C valid HTML code</h3>
+          <p class="mb-0">All HTML files are checked with W3C validator to ensure 100% valid code. As you probably know
+            invalid HTML limits innovation, but Around is innovative at its core.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="pe-md-3 ps-lg-3 ps-xl-5">
+          <img class="d-inline-block mb-3 mb-lg-4" src="figma.png" width="56" alt="Figma">
+          <h3 class="h5 mb-2">Premium Figma file included</h3>
+          <p class="mb-0">A well-crafted Figma design file is included in the download package. It offers a visually
+            stunning and organized layout, utilizing Figma's components and styles. </p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="pe-md-3 pe-lg-3 pe-xl-5">
+          <img class="d-inline-block mb-3 mb-lg-4" src="touch.png" width="56" alt="Touch support">
+          <h3 class="h5 mb-2">Touch-enabled sliders</h3>
+          <p class="mb-0">In the era of touch screens it's important to ensure great user experience on handheld
+            devices, when it comes to such frequently used interface component as slider.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="ps-md-3 px-lg-2 px-xl-4">
+          <img class="d-inline-block mb-3 mb-lg-4" src="google-fonts.png" width="56" alt="Google Fonts">
+          <h3 class="h5 mb-2">Google fonts</h3>
+          <p class="mb-0">Around uses Google font (Inter) which is free, fast to load and of very high quality.
+            Currently Google fonts library includes 1400+ font families to choose from.</p>
+        </div>
+      </div>
+
+      <!-- Item -->
+      <div class="col text-center text-sm-start pt-2 pt-sm-0">
+        <div class="pe-md-3 ps-lg-3 ps-xl-5">
+          <img class="d-inline-block mb-3 mb-lg-4" src="vector.png" width="56" alt="Vector icons">
+          <h3 class="h5 mb-2">Vector based HD ready icons</h3>
+          <p class="mb-0">Around is equiped with font-based icon pack and svg icons to ensure that infographics and
+            interface icons look sharp on any device with any screen resolution and pixel density.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <span class="placeholder col-12 bg-warning"></span>
+
+
+  <div class="container ">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+
+    </footer>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+
+          <img src="robonix.jpeg" width="30" height="24" alt="" srcset="">
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x"
+              viewBox="0 0 16 16">
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+            </svg>
+          </a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg>
+          </a></li>
+
+        <li class="ms-3"><a class="text-body-secondary" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg>
+          </a></li>
+      </ul>
+      <br>
+      <br>
+      <br>     <br>
+ 
+    </footer>
+  </div>
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
